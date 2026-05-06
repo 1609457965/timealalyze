@@ -2,7 +2,7 @@
 
 这是一个基于 Python 的多国货币汇率预测项目，主要用于获取汇率时间序列数据、训练预测模型，并通过桌面 GUI 展示预测结果。
 
-仓库已移除课程课件、实验报告、考试资料、实验数据包以及可能包含个人信息的文件。当前内容聚焦于汇率预测系统本身。
+当前内容聚焦于汇率预测系统本身。
 
 ## 功能概览
 
@@ -95,7 +95,4 @@ pyinstaller currency_forecast.spec
 - `saved_models/*.pkl`、`saved_models/*.h5`：已训练模型
 - 根目录中的 `arima_model.pkl`、`prophet_model.pkl`、`lstm_model.h5`、`lstm_scaler.pkl`：模型文件和归一化器
 
-## 隐私与仓库整理
-
-本仓库不再包含课程课件、实验报告、试卷答案、课程实验数据包、课程 Notebook 导出文件或不明来源图片。`build/` 属于本地打包生成目录，也已从版本管理中移除，并通过 `.gitignore` 忽略。
 
